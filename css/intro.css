@@ -1,0 +1,126 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: "kalpurush", sans-serif;
+    font-weight: 300;
+    color: #585b60;
+    line-height: 26px;
+    font-size: 15px;
+}
+
+.p-bot-120 {
+    padding-bottom: 120px;
+}
+
+.cover-wrapper {
+    height: 100%;
+    width: 100%;
+    display: table;
+    background: url(../img/bg-cover.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.cover {
+    height: 100%;
+    width: 100%;
+    display: table-cell;
+    text-align: center;
+    vertical-align: top;
+}
+
+@font-face {
+    font-family: "kalpurush";
+    src: url(../fonts/kalpurush.ttf) format("truetype");
+
+}
+
+.big-txt {
+    font-family: "kalpurush", cursive;
+    font-size: 60px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin: 120px 0 40px;
+    text-shadow: 0px 0px 4px #0000FF;
+}
+
+.banner-headline {
+    font-family: "kalpurush", cursive;
+    font-size: 36px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin: 0;
+    text-shadow: 0px 0px 2px #0000FF; 
+}
+
+ul {
+    font-family: "kalpurush";
+
+    list-style-type: none;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none !important;
+    display: inline-block;
+    padding: 10px;
+}
+
+
+/* Responsive */
+
+@media only screen and (max-width: 768px) {
+
+    .demo {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .cover {
+        vertical-align: middle;
+    }
+
+    .big-txt {
+        font-size: 40px;
+        margin: -160px 0 30px;
+    }
+
+    .banner-headline {
+        font-size: 25px;
+        letter-spacing: 0;
+        line-height: 37px;
+        padding: 0px 20px;
+        margin: 0 15px;
+    }
+
+    .feature {
+        margin-bottom: 30px;
+    }
+
+    .core-heading h2 {
+        font-size: 30px;
+        letter-spacing: 0;
+        word-spacing: 10px;
+    }
+
+    .core-heading {
+        padding: 40px 0;
+    }
+
+    .p-bot-120,
+    .core-features {
+        padding-bottom: 60px;
+    }
+}
