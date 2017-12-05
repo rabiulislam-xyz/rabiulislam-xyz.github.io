@@ -33,11 +33,11 @@ body {
     vertical-align: top;
 }
 
-@font-face {
+/*@font-face {
     font-family: "kalpurush";
     src: url(../fonts/kalpurush.ttf) format("truetype");
 
-}
+}*/
 
 .big-txt {
     font-family: "kalpurush", cursive;
