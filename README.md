@@ -6,4 +6,4 @@ services used in this website:
 - [migadu](https://www.migadu.com/) for email hosting
 - [github pages](https://pages.github.com/) for static pages
 - [blogger](https://www.blogger.com/) for blog
-- domain from hostmight [hostmight](http://hostmight.com/)
+- domain from [hostmight](http://hostmight.com/)
