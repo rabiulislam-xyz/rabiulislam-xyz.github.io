@@ -3,14 +3,6 @@ html, body {
     width: 100%;
 }
 
-body {
-    font-family: "kalpurush", sans-serif;
-    font-weight: 300;
-    color: #585b60;
-    line-height: 26px;
-    font-size: 15px;
-}
-
 .p-bot-120 {
     padding-bottom: 120px;
 }
@@ -33,11 +25,6 @@ body {
     vertical-align: top;
 }
 
-/*@font-face {
-    font-family: "kalpurush";
-    src: url(../fonts/kalpurush.ttf) format("truetype");
-
-}*/
 
 .big-txt {
     font-family: "kalpurush", cursive;
